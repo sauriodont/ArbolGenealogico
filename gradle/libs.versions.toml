@@ -1,0 +1,54 @@
+[versions]
+agp = "8.13.0"
+androidtreeview = "1.0.7"
+androidtreeviewVersion = "v1.0.7"
+firebaseDatabaseKtxVersion = "20.3.1"
+githubAndroidtreeview = "master-SNAPSHOT"
+githubAndroidtreeviewVersion = "1.3.4"
+googleFirebaseDatabaseKtx = "21.0.0"
+kotlin = "2.0.21"
+coreKtx = "1.17.0"
+junit = "4.13.2"
+junitVersion = "1.3.0"
+espressoCore = "3.7.0"
+lifecycleRuntimeKtx = "2.9.4"
+activityCompose = "1.11.0"
+composeBom = "2024.09.00"
+recyclerview = "1.4.0"
+treeview = "1.0.0"
+firebaseDatabaseKtx = "22.0.1"
+
+[libraries]
+androidtreeview = { module = "com.github.bmelnychuk:AndroidTreeView", version.ref = "androidtreeview" }
+androidtreeview-vmastersnapshot = { module = "com.github.bmelnychuk:AndroidTreeView", version.ref = "githubAndroidtreeview" }
+androidtreeview-vv107 = { module = "com.github.bmelnychuk:AndroidTreeView", version.ref = "androidtreeviewVersion" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
+bkhezry-androidtreeview = { module = "com.github.bkhezry:AndroidTreeView", version.ref = "githubAndroidtreeviewVersion" }
+firebase-database-ktx-v2031 = { module = "com.google.firebase:firebase-database-ktx", version.ref = "firebaseDatabaseKtxVersion" }
+firebase-database-ktx-v2100 = { module = "com.google.firebase:firebase-database-ktx", version.ref = "googleFirebaseDatabaseKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-compose-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-compose-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-compose-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-compose-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+glide = { module = "com.github.bumptech.glide:glide", version = "4.16.0" }
+glide-compiler = { module = "com.github.bumptech.glide:compiler", version = "4.16.0" }
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version = "1.6.1" }
+androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version = "2.1.4" }
+treeview = { module = "com.github.AmrDeveloper:TreeView", version.ref = "treeview" }
+firebase-database-ktx = { group = "com.google.firebase", name = "firebase-database-ktx", version.ref = "firebaseDatabaseKtx" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+kotlin-kapt = { id = "kotlin-kapt", version = "1.9.10" } # o la versión que uses
